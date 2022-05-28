@@ -1,4 +1,7 @@
-In this report, we will be implementing a deep neural network with an input layer, three hidden layers with ReLu non-linear activation and an output or classification layer. We will be training a neural network to classify images from the CIFAR-10 dataset. This report documents the training process investigating the effects of the following hyperparameter settings on accuracy:
+This report documents implementation of a deep neural network with an input layer, three hidden layers with ReLu non-linear activation and an output or classification layer.
+
+We trained a neural network to classify images from the CIFAR-10 dataset. This report documents the training process investigating the effects of the following hyperparameter settings on accuracy:
+
 Batch size,
 Depth,
 Width,
@@ -17,3 +20,5 @@ Further we explored the number of epochs, momentum and normalization and noted t
 
 
 Please refer to Github commits for each iteration of the exploration.
+
+Ultimately each of these hyperparameters when adjusted individually as defined in the assignment yielded no notable improvement in accuracy from baseline.
